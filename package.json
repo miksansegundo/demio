@@ -27,7 +27,7 @@
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "server": "node Test-Projection/app.js",
-    "deploy": "surge -p build -d demio.studiomik.es"
+    "deploy": "surge -p build -d demio.surge.sh"
   },
   "devDependencies": {
     "redux-devtools": "^3.4.1"
