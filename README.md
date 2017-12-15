@@ -1,7 +1,9 @@
 Demio Mock Invoice App
 ======================
+![](http://recordit.co/pIkc05SNRX.gif)
+[Screencast](http://g.recordit.co/HyT9RyEE8K.gif)
 
-This repo holds **Mock Invoice App** a test project for Demio. It's coded on **Babel** with **[JavaScript Standard Style](https://standardjs.com/)** and it's built with **Webpack** with the awesome [create-react-app](https://github.com/facebookincubator/create-react-app) boilerplate.
+This repo holds **[Mock Invoice App (demio.studiomik.es)](http://demio.studiomik.es)** a test project for Demio. It's coded on **Babel** with **[JavaScript Standard Style](https://standardjs.com/)** and it's built with **Webpack** with the awesome [create-react-app](https://github.com/facebookincubator/create-react-app) boilerplate.
 
 The stack is:
   - **React** A JavaScript library for building user interfaces
@@ -97,6 +99,7 @@ Create a single JS bundled in the *build* directory
 
 Deploy the code to the http://demio.studiomik.es domain
 
-   yarn deploy
+    yarn deploy
+
 
 
