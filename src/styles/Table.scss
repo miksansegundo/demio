@@ -57,10 +57,6 @@
 	}
 }
 
-.table--striped tbody tr:nth-of-type(even) {
-	background-color: rgba(0, 0, 0, 0.02);
-}
-
 .table--compact {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 13px;
@@ -70,4 +66,13 @@
 			font-size: 13px;
 		}
 	}
+}
+
+.table--striped tbody tr:nth-of-type(even) {
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover tbody tr:hover {
+	background-color: rgba(213, 239, 214, 0.6);
+	cursor: pointer;
 }
