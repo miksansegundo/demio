@@ -1,0 +1,17 @@
+.Menu {
+	border: 1px solid #e7e7e7;
+	border-width: 1px 0;
+	margin-bottom: 32px;
+
+	.active {
+		background: #e7e7e7;
+	}
+
+	.navbar {
+  	padding: 0;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+  	padding: 15px 17px;
+  }
+}

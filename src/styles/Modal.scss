@@ -1,0 +1,30 @@
+.modal-title {
+  color: #7d7d7d;
+  font-weight: 600;
+}
+
+.modal-header {
+  justify-content: center;
+  background: #01a358;
+  border-radius: 4px 4px 0 0;
+}
+
+.modal-title {
+  color: #bef5dc;
+}
+
+.invoices-modal {
+  .modal-body {
+    color: #7d7d7d;
+    padding: 30px 30px 0;
+  }
+  p {
+    margin-bottom: 6px;
+    line-height: 20px;
+  }
+  label {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 3px;
+  }
+}

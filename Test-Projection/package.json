@@ -1,0 +1,23 @@
+{
+  "name": "demio-invoices-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cors": "2.8.1",
+    "express": "~4.13.4",
+    "lodash": "latest",
+    "now-logs": "0.0.7",
+    "sequelize": "^3.20.0",
+    "sqlite3": "latest"
+  },
+  "now": {
+    "alias": "demio-invoices-api.now.sh",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
